@@ -38,24 +38,53 @@ echo "$LOG" | learn-xcpretty -t --report learn
 * Open your Xcode project (if using pods, open the .xcworkspace file)
 * Do the following :
 
+* Located at the top of Xcode (when open), you should see next to where you can select the specific iPhone to run on the simulator, the name of your Project next to pencils and such. The name of my project is "LoveNotWar". Select that.
+
+![theRealFirst](http://i.imgur.com/ODB44nI.png)  
+-
+
+* Select where it states "Manage Schemes..." 
+
 ![first](http://i.imgur.com/kZnlEaM.png)  
 -  
+
+* You should be presented with a screen that looks something like this.
+
 ![second](http://i.imgur.com/p5HvRmx.png)  
 -
+
+* Select (what usually is the top one) your Project Name. In my case, it's LoveNotWar and hit Edit...
+
 ![third](http://i.imgur.com/KdG8Clb.png)  
 - 
+
+* Select the Test (Debut) section and open up the drop down menu, then select "Post-actions" where your screen should look like this:
+
 ![fourth](http://i.imgur.com/U2s1j38.png)  
 -
+
+* You should see a + symbol in the lower left of the window which includes that "No Actions" message. Select the + symbol to be presented with two options, select the "New Run Script Action" option.
+
 ![fifth](http://i.imgur.com/HmyikHz.png)  
 - 
+
+* Open the drop down menu where it states "Provide build settings from" and select your Project, in my case.. I'm selecting "LoveNotWar".  
+
 ![sixth](http://i.imgur.com/FynWI0R.png)  
 -
-![seventh](http://i.imgur.com/0OfusZ7.png)  
+
+* Copy and paste the following into that little so it winds up looking like this:  
 
 ```
 LOG_PATH=`echo "${BUILD_DIR}" | sed "s/Build\/Products/Logs\/Test/"`
 "${SRCROOT}/test_runner.sh" "$LOG_PATH" "${SRCROOT}"
 ```
+
+![seventh](http://i.imgur.com/0OfusZ7.png)  
+
+* You did it.
+
+![congrats](https://media.giphy.com/media/daUOBsa1OztxC/giphy.gif)
 
 
 
