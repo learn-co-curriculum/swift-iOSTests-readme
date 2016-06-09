@@ -7,6 +7,14 @@
 
 ## Steps
 
+* **NOTE**: WHEN A STUDENT ASKS WHY THEIR LIGHTS AREN'T WORKING, A LOT OF TIMES THEY JUST HAVE TO TYPE THIS WITHIN TERMINAL AND THEN RE-RUN THE TESTS:
+
+```
+gem update learn-xcpretty
+```
+
+###Instructions:
+
 * Create the lab. Make it a good one.
 * You will find the `test_runner.sh` file included with this repo.
 * In the folder which includes **YOUR** Xcode project and README.md file for the current lab you're making, drag the `test_runner.sh` file into that folder so it ends up looking like this demo folder I made that represents a lab:
