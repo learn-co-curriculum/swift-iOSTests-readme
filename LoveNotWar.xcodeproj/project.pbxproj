@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0002A9938A87E02E37B13C59 /* Pods_LoveNotWar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1E4BC3FAEA409A825BDC71 /* Pods_LoveNotWar.framework */; };
+		10E95096157658F087562E52 /* Pods_LoveNotWarUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99DA72A1516393FC3F3BBA46 /* Pods_LoveNotWarUITests.framework */; };
+		44A1D7471A1B36063A9BEB44 /* Pods_LoveNotWarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 379C6E6D428692B88124FB00 /* Pods_LoveNotWarTests.framework */; };
+		5B9D1BD11D09A53000522058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D1BD01D09A53000522058 /* AppDelegate.swift */; };
+		5B9D1BD31D09A53000522058 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D1BD21D09A53000522058 /* ViewController.swift */; };
+		5B9D1BD61D09A53000522058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9D1BD41D09A53000522058 /* Main.storyboard */; };
+		5B9D1BD81D09A53000522058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9D1BD71D09A53000522058 /* Assets.xcassets */; };
+		5B9D1BDB1D09A53000522058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B9D1BD91D09A53000522058 /* LaunchScreen.storyboard */; };
+		5B9D1BE61D09A53000522058 /* LoveNotWarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D1BE51D09A53000522058 /* LoveNotWarTests.swift */; };
+		5B9D1BF11D09A53000522058 /* LoveNotWarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9D1BF01D09A53000522058 /* LoveNotWarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B9D1BE21D09A53000522058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B9D1BC51D09A53000522058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B9D1BCC1D09A53000522058;
+			remoteInfo = LoveNotWar;
+		};
+		5B9D1BED1D09A53000522058 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B9D1BC51D09A53000522058 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B9D1BCC1D09A53000522058;
+			remoteInfo = LoveNotWar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		379C6E6D428692B88124FB00 /* Pods_LoveNotWarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveNotWarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9D1BCD1D09A53000522058 /* LoveNotWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveNotWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9D1BD01D09A53000522058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B9D1BD21D09A53000522058 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B9D1BD51D09A53000522058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B9D1BD71D09A53000522058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B9D1BDA1D09A53000522058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B9D1BDC1D09A53000522058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B9D1BE11D09A53000522058 /* LoveNotWarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveNotWarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9D1BE51D09A53000522058 /* LoveNotWarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveNotWarTests.swift; sourceTree = "<group>"; };
+		5B9D1BE71D09A53000522058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B9D1BEC1D09A53000522058 /* LoveNotWarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoveNotWarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B9D1BF01D09A53000522058 /* LoveNotWarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoveNotWarUITests.swift; sourceTree = "<group>"; };
+		5B9D1BF21D09A53000522058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740B662464C4BED9595F72E5 /* Pods-LoveNotWarUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveNotWarUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveNotWarUITests/Pods-LoveNotWarUITests.release.xcconfig"; sourceTree = "<group>"; };
+		77173F10CEBF1248799EFA34 /* Pods-LoveNotWar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveNotWar.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveNotWar/Pods-LoveNotWar.release.xcconfig"; sourceTree = "<group>"; };
+		8B1E4BC3FAEA409A825BDC71 /* Pods_LoveNotWar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveNotWar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97642F0380C768DA897450EF /* Pods-LoveNotWarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveNotWarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoveNotWarTests/Pods-LoveNotWarTests.release.xcconfig"; sourceTree = "<group>"; };
+		99DA72A1516393FC3F3BBA46 /* Pods_LoveNotWarUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoveNotWarUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC48F279234BD968B795414 /* Pods-LoveNotWarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveNotWarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveNotWarTests/Pods-LoveNotWarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E965C91CC224BFACF4594428 /* Pods-LoveNotWar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveNotWar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveNotWar/Pods-LoveNotWar.debug.xcconfig"; sourceTree = "<group>"; };
+		F86724423A2F75BD43DE9170 /* Pods-LoveNotWarUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoveNotWarUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoveNotWarUITests/Pods-LoveNotWarUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B9D1BCA1D09A53000522058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0002A9938A87E02E37B13C59 /* Pods_LoveNotWar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B9D1BDE1D09A53000522058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A1D7471A1B36063A9BEB44 /* Pods_LoveNotWarTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B9D1BE91D09A53000522058 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10E95096157658F087562E52 /* Pods_LoveNotWarUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B9D1BC41D09A53000522058 = {
+			isa = PBXGroup;
+			children = (
+				5B9D1BCF1D09A53000522058 /* LoveNotWar */,
+				5B9D1BE41D09A53000522058 /* LoveNotWarTests */,
+				5B9D1BEF1D09A53000522058 /* LoveNotWarUITests */,
+				5B9D1BCE1D09A53000522058 /* Products */,
+				DD0760AECED5BCCB907B2408 /* Pods */,
+				DE5F873B495504DD6B456922 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B9D1BCE1D09A53000522058 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B9D1BCD1D09A53000522058 /* LoveNotWar.app */,
+				5B9D1BE11D09A53000522058 /* LoveNotWarTests.xctest */,
+				5B9D1BEC1D09A53000522058 /* LoveNotWarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B9D1BCF1D09A53000522058 /* LoveNotWar */ = {
+			isa = PBXGroup;
+			children = (
+				5B9D1BD01D09A53000522058 /* AppDelegate.swift */,
+				5B9D1BD21D09A53000522058 /* ViewController.swift */,
+				5B9D1BD41D09A53000522058 /* Main.storyboard */,
+				5B9D1BD71D09A53000522058 /* Assets.xcassets */,
+				5B9D1BD91D09A53000522058 /* LaunchScreen.storyboard */,
+				5B9D1BDC1D09A53000522058 /* Info.plist */,
+			);
+			path = LoveNotWar;
+			sourceTree = "<group>";
+		};
+		5B9D1BE41D09A53000522058 /* LoveNotWarTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B9D1BE51D09A53000522058 /* LoveNotWarTests.swift */,
+				5B9D1BE71D09A53000522058 /* Info.plist */,
+			);
+			path = LoveNotWarTests;
+			sourceTree = "<group>";
+		};
+		5B9D1BEF1D09A53000522058 /* LoveNotWarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B9D1BF01D09A53000522058 /* LoveNotWarUITests.swift */,
+				5B9D1BF21D09A53000522058 /* Info.plist */,
+			);
+			path = LoveNotWarUITests;
+			sourceTree = "<group>";
+		};
+		DD0760AECED5BCCB907B2408 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E965C91CC224BFACF4594428 /* Pods-LoveNotWar.debug.xcconfig */,
+				77173F10CEBF1248799EFA34 /* Pods-LoveNotWar.release.xcconfig */,
+				AEC48F279234BD968B795414 /* Pods-LoveNotWarTests.debug.xcconfig */,
+				97642F0380C768DA897450EF /* Pods-LoveNotWarTests.release.xcconfig */,
+				F86724423A2F75BD43DE9170 /* Pods-LoveNotWarUITests.debug.xcconfig */,
+				740B662464C4BED9595F72E5 /* Pods-LoveNotWarUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE5F873B495504DD6B456922 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B1E4BC3FAEA409A825BDC71 /* Pods_LoveNotWar.framework */,
+				379C6E6D428692B88124FB00 /* Pods_LoveNotWarTests.framework */,
+				99DA72A1516393FC3F3BBA46 /* Pods_LoveNotWarUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B9D1BCC1D09A53000522058 /* LoveNotWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B9D1BF51D09A53000522058 /* Build configuration list for PBXNativeTarget "LoveNotWar" */;
+			buildPhases = (
+				DDA4FF9B790C6A607D24DE1D /* [CP] Check Pods Manifest.lock */,
+				5B9D1BC91D09A53000522058 /* Sources */,
+				5B9D1BCA1D09A53000522058 /* Frameworks */,
+				5B9D1BCB1D09A53000522058 /* Resources */,
+				7F2ECC387417A3A14F9C079B /* [CP] Embed Pods Frameworks */,
+				A38D1EE0CC2BBE4A94628CAA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoveNotWar;
+			productName = LoveNotWar;
+			productReference = 5B9D1BCD1D09A53000522058 /* LoveNotWar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B9D1BE01D09A53000522058 /* LoveNotWarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B9D1BF81D09A53000522058 /* Build configuration list for PBXNativeTarget "LoveNotWarTests" */;
+			buildPhases = (
+				3DD3EFD7315F77FCB5585D12 /* [CP] Check Pods Manifest.lock */,
+				5B9D1BDD1D09A53000522058 /* Sources */,
+				5B9D1BDE1D09A53000522058 /* Frameworks */,
+				5B9D1BDF1D09A53000522058 /* Resources */,
+				6C18DDE91E98333BB4DF3003 /* [CP] Embed Pods Frameworks */,
+				603711E0592358FCC2CB9F11 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B9D1BE31D09A53000522058 /* PBXTargetDependency */,
+			);
+			name = LoveNotWarTests;
+			productName = LoveNotWarTests;
+			productReference = 5B9D1BE11D09A53000522058 /* LoveNotWarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B9D1BEB1D09A53000522058 /* LoveNotWarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B9D1BFB1D09A53000522058 /* Build configuration list for PBXNativeTarget "LoveNotWarUITests" */;
+			buildPhases = (
+				16779C4EC8088D4592265E97 /* [CP] Check Pods Manifest.lock */,
+				5B9D1BE81D09A53000522058 /* Sources */,
+				5B9D1BE91D09A53000522058 /* Frameworks */,
+				5B9D1BEA1D09A53000522058 /* Resources */,
+				07E388148B45A160017C6DAC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B9D1BEE1D09A53000522058 /* PBXTargetDependency */,
+			);
+			name = LoveNotWarUITests;
+			productName = LoveNotWarUITests;
+			productReference = 5B9D1BEC1D09A53000522058 /* LoveNotWarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B9D1BC51D09A53000522058 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Flatiron School";
+				TargetAttributes = {
+					5B9D1BCC1D09A53000522058 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					5B9D1BE01D09A53000522058 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5B9D1BCC1D09A53000522058;
+					};
+					5B9D1BEB1D09A53000522058 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5B9D1BCC1D09A53000522058;
+					};
+				};
+			};
+			buildConfigurationList = 5B9D1BC81D09A53000522058 /* Build configuration list for PBXProject "LoveNotWar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B9D1BC41D09A53000522058;
+			productRefGroup = 5B9D1BCE1D09A53000522058 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B9D1BCC1D09A53000522058 /* LoveNotWar */,
+				5B9D1BE01D09A53000522058 /* LoveNotWarTests */,
+				5B9D1BEB1D09A53000522058 /* LoveNotWarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B9D1BCB1D09A53000522058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9D1BDB1D09A53000522058 /* LaunchScreen.storyboard in Resources */,
+				5B9D1BD81D09A53000522058 /* Assets.xcassets in Resources */,
+				5B9D1BD61D09A53000522058 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B9D1BDF1D09A53000522058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B9D1BEA1D09A53000522058 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07E388148B45A160017C6DAC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveNotWarUITests/Pods-LoveNotWarUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16779C4EC8088D4592265E97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3DD3EFD7315F77FCB5585D12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		603711E0592358FCC2CB9F11 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveNotWarTests/Pods-LoveNotWarTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C18DDE91E98333BB4DF3003 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveNotWarTests/Pods-LoveNotWarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F2ECC387417A3A14F9C079B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveNotWar/Pods-LoveNotWar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A38D1EE0CC2BBE4A94628CAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoveNotWar/Pods-LoveNotWar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDA4FF9B790C6A607D24DE1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B9D1BC91D09A53000522058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9D1BD31D09A53000522058 /* ViewController.swift in Sources */,
+				5B9D1BD11D09A53000522058 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B9D1BDD1D09A53000522058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9D1BE61D09A53000522058 /* LoveNotWarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B9D1BE81D09A53000522058 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9D1BF11D09A53000522058 /* LoveNotWarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B9D1BE31D09A53000522058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B9D1BCC1D09A53000522058 /* LoveNotWar */;
+			targetProxy = 5B9D1BE21D09A53000522058 /* PBXContainerItemProxy */;
+		};
+		5B9D1BEE1D09A53000522058 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B9D1BCC1D09A53000522058 /* LoveNotWar */;
+			targetProxy = 5B9D1BED1D09A53000522058 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B9D1BD41D09A53000522058 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B9D1BD51D09A53000522058 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B9D1BD91D09A53000522058 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B9D1BDA1D09A53000522058 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B9D1BF31D09A53000522058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B9D1BF41D09A53000522058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B9D1BF61D09A53000522058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E965C91CC224BFACF4594428 /* Pods-LoveNotWar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveNotWar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.LoveNotWar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B9D1BF71D09A53000522058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77173F10CEBF1248799EFA34 /* Pods-LoveNotWar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LoveNotWar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.LoveNotWar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B9D1BF91D09A53000522058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC48F279234BD968B795414 /* Pods-LoveNotWarTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoveNotWarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.LoveNotWarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveNotWar.app/LoveNotWar";
+			};
+			name = Debug;
+		};
+		5B9D1BFA1D09A53000522058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97642F0380C768DA897450EF /* Pods-LoveNotWarTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LoveNotWarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.LoveNotWarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoveNotWar.app/LoveNotWar";
+			};
+			name = Release;
+		};
+		5B9D1BFC1D09A53000522058 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F86724423A2F75BD43DE9170 /* Pods-LoveNotWarUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LoveNotWarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.LoveNotWarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoveNotWar;
+			};
+			name = Debug;
+		};
+		5B9D1BFD1D09A53000522058 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740B662464C4BED9595F72E5 /* Pods-LoveNotWarUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = LoveNotWarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flatironSchool.LoveNotWarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LoveNotWar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B9D1BC81D09A53000522058 /* Build configuration list for PBXProject "LoveNotWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9D1BF31D09A53000522058 /* Debug */,
+				5B9D1BF41D09A53000522058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B9D1BF51D09A53000522058 /* Build configuration list for PBXNativeTarget "LoveNotWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9D1BF61D09A53000522058 /* Debug */,
+				5B9D1BF71D09A53000522058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B9D1BF81D09A53000522058 /* Build configuration list for PBXNativeTarget "LoveNotWarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9D1BF91D09A53000522058 /* Debug */,
+				5B9D1BFA1D09A53000522058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B9D1BFB1D09A53000522058 /* Build configuration list for PBXNativeTarget "LoveNotWarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B9D1BFC1D09A53000522058 /* Debug */,
+				5B9D1BFD1D09A53000522058 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B9D1BC51D09A53000522058 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_LoveNotWarUITests {
+  umbrella header "Pods-LoveNotWarUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,13 +1,14 @@
-# Loud Noises
+# Green Lights on Learn + Xcode
 
 <img src="http://i.imgur.com/asu8fcm.jpg?1" alt="Drawing" style="width: 200px;"/>  
 
 
 > There is no greater education than one that is self-driven.
 
-## Learning Objectives - The student should be able to..
+## Steps
 
-* Blah blah blah
+* Create the lab. Make it a good one.
+* 
 
 ## What the student can do at this point 
 
