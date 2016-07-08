@@ -66,7 +66,7 @@ echo "$LOG" | learn-xcpretty -t --report learn
 ![third](http://i.imgur.com/KdG8Clb.png)  
 - 
 
-* Select the Test (Debut) section and open up the drop down menu, then select "Post-actions" where your screen should look like this:
+* Select the Test (Debug) section and open up the drop down menu, then select "Post-actions" where your screen should look like this:
 
 ![fourth](http://i.imgur.com/U2s1j38.png)  
 -
