@@ -5,22 +5,35 @@
 
 > There is no greater education than one that is self-driven.
 
-## Steps
+---
 
-* **NOTE**: WHEN A STUDENT ASKS WHY THEIR LIGHTS AREN'T WORKING, A LOT OF TIMES THEY JUST HAVE TO TYPE THIS WITHIN TERMINAL AND THEN RE-RUN THE TESTS:
+### Quick Fix
+
+If you've come to this page over and over for info, I will include this snippet near the top (to help you out).
 
 ```
-gem update learn-xcpretty
+LOG_PATH=`echo "${BUILD_DIR}" | sed "s/Build\/Products/Logs\/Test/"`
+"${SRCROOT}/test_runner.sh" "$LOG_PATH" "${SRCROOT}"
 ```
 
-###Instructions:
+I think it helps to have a copy of the `test_runner.sh` file somewhere local on your machine that way you can keep copying and pasting the actual file over to new projects you make.
 
-* Create the lab. Make it a good one.
+---
+
+
+# Instructions:
+
+
+* Don't create your `.gitignore` file yet. If you want to know why, scroll down and read the **Important Note** listed below.
+* Create an Xcode project. You will want it to include Unit Tests, **NOT** UItests.
+
+![](http://i.imgur.com/Bq5tqhm.png?1)
+
 * You will find the `test_runner.sh` file included with this repo.
 * In the folder which includes **YOUR** Xcode project and README.md file for the current lab you're making, drag the `test_runner.sh` file into that folder so it ends up looking like this demo folder I made that represents a lab:
   
 ![testRunner](http://i.imgur.com/SdBQRfG.png?1)
-* If you prefer not to download the `test_runner.sh` file from this repo, you can create an empty `test_runner.sh` file within YOUR directory and copy/paste the following information into that newly made `test_runner.sh` file. **NOTE**: This is NOT required if you dragged the file in (as suggested in the prior bullet point.)
+* If you prefer not to download the `test_runner.sh` file from this repo, you can create an empty `test_runner.sh` file within your directory and copy/paste the following information into that newly made `test_runner.sh` file. **NOTE**: This is NOT required if you dragged the file in (as suggested in the prior bullet point.)
 
 ```
 #!/bin/bash
@@ -111,6 +124,35 @@ LOG_PATH=`echo "${BUILD_DIR}" | sed "s/Build\/Products/Logs\/Test/"`
 * You did it.
 
 ![congrats](https://media.giphy.com/media/daUOBsa1OztxC/giphy.gif)
+
+# Important Note!
+
+The step where you're adding the Post-action script will not persist if you don't do this correctly.
+
+What does that mean?
+
+If you try to add that post-script command within your Xcode project within your directory that _already_ contains a `.gitignore` file, it will **NOT SAVE**. You might close your Xcode, re-open it and see that it _is_ still there, where you might shout "BUT JIM IT DID SAVE!". Yes, it saved to your local Xcode but considering your `.gitignore` file has this lovely line in it:
+
+`xcuserdata/`
+
+That will **prevent** this post-script action from being pushed up to Github. That's because any change to this post-script action (like what we did above) happens within this `xcuserdata/` folder. 
+
+So there are a few ways to handle this.
+
+1. When you create the Xcode project for this lab, don't save it to the folder that contains the `.git` file (meaning the directory that you navigate to to `git add .`, `git commit -m ""` and all that jazz). Save it to your desktop, add this Post-script command to the Xcode project _then_ drag it into the directory which contains the `.git` file. At that point you can enter in all those lovely git commands then push it up.
+2. Don't create the `.gitignore` file _until_ you have this project created that includes the post-script action. When that post-script command is added, then `git add .`, `git commit` and then `git push`. At that point.. you should then create the `.gitignore` file.
+3. Some other magic you come up with.
+
+![](https://media.giphy.com/media/x7l3pkXcDrKPm/giphy.gif)
+
+
+If you want to make sure everything is working. Clone down the repo into a different folder somewhere, open Xcode, navigate to the post-script and make sure it's still there. If it's not there, then `gitignore`  is ignoring it. You will need to remove the `gitignore` file (or just the part regarding `xcuserdata/` althoug I haven't tested this out in just removing the `xcuserdata/` part). Then add that post-script action to Xcode, then add, commit and push up the changes to Github. Then re-add the `.gitignore` file. It might still be tracking the xcuserdata info which means you will need to type `git rm -rf yyyyy` those xcuserdata files. `yyyyy` represents the name(s) of those files. You will know it's mistakenly tracking these files if you close Xcode. Type `git status` where you should see everything is up to date after you had added, commited and pushed the changes from the earlier step. Now re-open Xcode. Just click open a file  on the left (don't add anything to it), now close xcode. If you type `git status`, NO files should show as being changed. If it shows a xcuserstate or data type file that needs to be commited, then that's the particular file you need to `git rm -rf`
+
+# Podfile
+
+We use Quick & Nimble for tests.
+
+[Here](https://github.com/learn-co-curriculum/swift-boat/blob/master/swift-boatTests/BoatSpec.swift) is an example of tests written for one of our labs.
 
 
 
