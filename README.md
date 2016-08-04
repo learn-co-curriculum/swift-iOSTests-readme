@@ -3,9 +3,8 @@
 <img src="http://i.imgur.com/asu8fcm.jpg?1" alt="Drawing" style="width: 200px;"/>  
 
 
-> There is no greater education than one that is self-driven.
+> There is no greater education than one that is self-driven. -[Neil deGrasse Tyson](https://en.wikipedia.org/wiki/Neil_deGrasse_Tyson)
 
----
 
 ### Quick Fix
 
