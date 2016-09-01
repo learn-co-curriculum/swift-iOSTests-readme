@@ -18,6 +18,25 @@ LOG_PATH=`echo "${BUILD_DIR}" | sed "s/Build\/Products/Logs\/Test/"`
 
 I think it helps to have a copy of the `test_runner.sh` file somewhere local on your machine that way you can keep copying and pasting the actual file over to new projects you make.
 
+There are some labs that include tests. Learn might include an additional circle (that can be lit green) that states that you need to "Pass The Tests". When the tests pass within Xcode, the appropriate circle (on learn) should then light up green.
+
+In order for Xcode to be able to communicate with Learn to let Learn know that  all of your tests passed when completing a lab, you need to type the following command in Terminal which will install the file on your machine to make all this happen.
+
+`bash <(curl -s https://raw.githubusercontent.com/flatiron-school/ios-setup/master/install.sh)`
+
+After running the command above in terminal, you should be met with a message that states "You're all set - setup complete!" after going through any necessary steps of it asking you any questions.
+
+![completeSetup](http://i.imgur.com/OBX76qT.png)
+
+You might notice that my terminal looks different than yours, especially that <3 icon I have.
+
+`curl https://raw.githubusercontent.com/flatiron-school/dotfiles/master/.bash_profile -o ~/.bash_profile`
+
+Typing that command in terminal will install a certain file on your machine which is setup to make your terminal application look like mine. I recommend you do this (as it's not just adding a <3 icon) but take note that by running this command it will override any customized bash_profile you might already have on your machine.
+
+Please Note you must reload your bash profile by typing the following in terminal
+`source ~/.bash_profile~
+
 ---
 
 
