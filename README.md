@@ -16,6 +16,12 @@ LOG_PATH=`echo "${BUILD_DIR}" | sed "s/Build\/Products/Logs\/Test/"`
 "${SRCROOT}/test_runner.sh" "$LOG_PATH" "${SRCROOT}"
 ```
 
+**There are 3 main things to do to get lights working**
+
+**1. Post-Script you need to put in Xcode**
+**2. test_runner.sh file needs to be in the directory that contains the Xcode project**
+**3. Run the bash command below**
+
 I think it helps to have a copy of the `test_runner.sh` file somewhere local on your machine that way you can keep copying and pasting the actual file over to new projects you make.
 
 There are some labs that include tests. Learn might include an additional circle (that can be lit green) that states that you need to "Pass The Tests". When the tests pass within Xcode, the appropriate circle (on learn) should then light up green.
