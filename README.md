@@ -18,8 +18,8 @@ LOG_PATH=`echo "${BUILD_DIR}" | sed "s/Build\/Products/Logs\/Test/"`
 
 **There are 3 main things to do to get lights working**
 
-**1. Post-Script you need to put in Xcode**
-**2. test_runner.sh file needs to be in the directory that contains the Xcode project**
+**1. Post-Script you need to put in Xcode**  
+**2. test_runner.sh file needs to be in the directory that contains the Xcode project**  
 **3. Run the bash command below**
 
 I think it helps to have a copy of the `test_runner.sh` file somewhere local on your machine that way you can keep copying and pasting the actual file over to new projects you make.
